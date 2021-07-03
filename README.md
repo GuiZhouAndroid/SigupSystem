@@ -6,5 +6,6 @@
 因此本源码仅供参考，后续如果我需要进行完善的话，会重新制作。
 2.要看效果就下在上面的apk文件，可以在手机上安装。
 3.下面就是我今天随便测试截得效果图，按顺序插入：
+![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/1.jpg)
 
  

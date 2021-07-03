@@ -12,4 +12,5 @@
 ![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/4.jpg)
 ![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/5.jpg)
 ![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/6.jpg)
-![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/5.jpg)![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/5.jpg)
+![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/7.jpg)
+![image](https://github.com/GuiZhouAndroid/SigupSystem/blob/master/Picture/8.jpg)

@@ -1,0 +1,128 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimation</item>
+        <!-- Set menu background and text color -->
+        <item name="android:itemBackground">@color/White</item>
+        <item name="android:textColor">@color/title_black</item>
+        <!--以下两行是进入APP解决白屏-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--透明状态栏-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 首页（第一级页面不让Activity透明） -->
+    <style name="mainPageStyle" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <!-- 非首页（非第一级页面让Activity透明） -->
+    <style name="otherPageStyle" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="windowAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+    <style name="AppTheme.FullScreen" parent="@style/Theme.AppCompat.DayNight">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="TabTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="WindowAnimationFadeInOut">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="AppTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <!-- 浮动窗口动画 -->
+    <style name="anim_float_view">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_up_out</item>
+    </style>
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="MenuButtonsStyle">
+        <item name="fab_size">mini</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">#444</item>
+        <item name="fab_colorNormal">@color/colorPrimary</item>
+        <item name="fab_colorPressed">@color/colorPrimary</item>
+        <item name="fab_colorRipple">@color/colorPrimary</item>
+    </style>
+
+    <!--启动后全屏显示的方法-->
+    <!--解决启动时出现白色背景问题-->
+    <!--android开发之提高应用启动速度_splash页面瞬间响应_避免APP启动闪白屏-->
+    <style parent="@android:style/Theme.NoTitleBar.Fullscreen" name="Fullscreen">
+    <item name="android:windowBackground">@drawable/fullscreen</item>
+    </style>
+    <!--全屏查看图片，并设置背景-->
+    <style name="Fullscreen_show_picture" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/Black</item>
+        <!--沉浸状态栏-->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <!--浮动按钮-->
+    <style name="style_float_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+    </style>
+
+    <!--时间选择器-->
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/viewBackground</item>
+    </style>
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/selected</item>
+    </style>
+
+    <!-- 图片全屏-->
+    <style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimation</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

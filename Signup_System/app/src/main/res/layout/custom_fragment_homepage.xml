@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/Grey50"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--banner_transitionEffect属性-->
+        <!--cube:立方体-->
+        <!--alpha:最初-->
+        <!--accordion:手风琴-->
+        <!--rotate:旋转-->
+        <!--zoom:缩放-->
+        <!--zoomCenter:从图片中心开始向外缩放-->
+        <!--flip:蹦弹效果-->
+        <!--depth:海洋效果-->
+        <!--stack:堆叠效果-->
+        <!--zoomStack:中心堆叠-->
+        <!--fade:淡色-->
+        <!--zoomFade:中心淡色-->
+        <cn.bingoogolapple.bgabanner.BGABanner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            app:banner_indicatorGravity="bottom|right"
+            app:banner_pageChangeDuration="4000"
+            app:banner_placeholderDrawable="@mipmap/placeholder_banner"
+            app:banner_pointAutoPlayAble="true"
+            app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow"
+            app:banner_pointTopBottomMargin="15dp"
+            app:banner_tipTextColor="@color/color_title_bg"
+            app:banner_tipTextSize="@dimen/textSize_titleSmall"
+            app:banner_transitionEffect="depth"></cn.bingoogolapple.bgabanner.BGABanner>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/bg_tv_hot"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/ic_touch_app_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:gravity="center"
+                android:text="@string/tv_home_hot"
+                android:textColor="@color/bg_status_bar"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+        <!--流式布局标签-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@color/colorAccent" />
+
+        <com.zhangsong.com.signup_system.utils.ui.FlowLayout.AutoFlowLayout
+            android:id="@+id/auto_flow_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/viewBackground" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/bg_tv_hot"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/ic_touch_app_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:text="@string/tv_home_grid"
+                android:textColor="@color/bg_status_bar"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+        <!--网格布局-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@color/colorAccent" />
+
+        <com.zhangsong.com.signup_system.utils.ui.FlowLayout.AutoFlowLayout
+            android:id="@+id/auto_grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_80"
+            android:background="@color/viewBackground"
+            app:columnNumbers="4"
+            app:cutLine="true"
+            app:cutLineColor="@color/colorAccent"
+            app:cutLineWidth="1px"
+            app:horizontalSpace="5dp"
+            app:rowNumbers="1"
+            app:verticalSpace="5dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorAccent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/bg_tv_hot"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:src="@drawable/ic_touch_app_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_toEndOf="@+id/iv_1"
+                android:text="@string/tv_sign_Encyclopedias"
+                android:textColor="@color/bg_status_bar"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_see_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/dp_3"
+                android:paddingEnd="@dimen/dp_30"
+                android:text="@string/See_More"
+                android:textSize="@dimen/text_size_13"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@color/colorAccent" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_2"
+            android:background="@color/viewBackground" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:background="@color/Grey200">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="————我是有底线的————"
+                android:textColor="@color/Grey500" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60">
+    </LinearLayout>
+</LinearLayout>

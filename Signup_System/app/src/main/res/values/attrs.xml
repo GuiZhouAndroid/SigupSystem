@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="textColorPrimary" format="color" />
+    <attr name="viewBackground" format="color" />
+
+    <declare-styleable name="CircleImageView">
+        <attr name="type" />
+        <attr name="borderColor" />
+        <attr name="borderWidth" />
+        <attr name="rectRoundRadius" />
+    </declare-styleable>
+
+    <declare-styleable name="IconListPreference">
+        <attr name="iconsDrawables" format="reference" />
+    </declare-styleable>
+
+    <!-- loadingView-->
+    <declare-styleable name="LoadingView">
+        <!--  设置外面进度条的半径 -->
+        <attr name="outerCircleRadius" format="dimension|reference" />
+        <!--  设置外面进度条的颜色 -->
+        <attr name="outerCircleColor" format="color|reference" />
+        <!--  设置三角形外接圆的半径 -->
+        <attr name="innerTriangleRadius" format="dimension|reference" />
+        <!--  设置三角形颜色 -->
+        <attr name="innerTriangleColor" format="color|reference" />
+        <!--  设置背景的颜色 -->
+        <attr name="backgroundColor" format="color|reference" />
+        <!--  设置是否需要背景 -->
+        <attr name="isNeedBackground" format="boolean" />
+        <attr name="strokeWidth" format="dimension|reference" />
+    </declare-styleable>
+    <!-- 是否开启抗锯齿 -->
+    <attr name="antiAlias" format="boolean" />
+    <!-- 圆弧起始角度，3点钟方向为0，顺时针递增，小于0或大于360进行取余 -->
+    <attr name="startAngle" format="float" />
+    <!-- 圆弧度数 -->
+    <attr name="sweepAngle" format="float" />
+    <!-- 设置动画时间 -->
+    <attr name="animTime" format="integer" />
+    <!-- 绘制内容的数值 -->
+    <attr name="maxValue" format="float" />
+    <attr name="value" format="float" />
+    <!-- 绘制内容的单位 -->
+    <attr name="unit" format="string|reference" />
+    <attr name="unitSize" format="dimension" />
+    <attr name="unitColor" format="color|reference" />
+    <!-- 绘制内容相应的提示语 -->
+    <attr name="hint" format="string|reference" />
+    <attr name="hintSize" format="dimension" />
+    <attr name="hintColor" format="color|reference" />
+    <!-- 精度，默认为0 -->
+    <attr name="precision" format="integer" />
+    <attr name="valueSize" format="dimension" />
+    <attr name="valueColor" format="color|reference" />
+    <!-- 圆弧颜色，设置多个可实现渐变 -->
+    <attr name="arcColor1" format="color|reference" />
+    <attr name="arcColor2" format="color|reference" />
+    <attr name="arcColor3" format="color|reference" />
+    <!-- 背景圆弧颜色，默认白色 -->
+    <attr name="bgArcColor" format="color|reference" />
+    <!-- 圆弧宽度 -->
+    <attr name="arcWidth" format="dimension" />
+    <!-- 圆弧颜色， -->
+    <attr name="arcColors" format="color|reference" />
+    <!-- 文字的偏移量。相对于圆半径而言，默认三分之一 -->
+    <attr name="textOffsetPercentInRadius" format="float" />
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircleProgressBar">
+        <!--倒计时-->
+        <attr name="countdownTime" format="integer"/>
+        <!--开启抗锯齿-->
+        <attr name="antiAlias" />
+        <attr name="startAngle" />
+        <attr name="sweepAngle" />
+        <attr name="animTime" />
+        <attr name="maxValue" />
+        <attr name="value" />
+        <attr name="precision" />
+        <attr name="valueSize" />
+        <attr name="valueColor" />
+        <attr name="textOffsetPercentInRadius" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <!-- 绘制内容的单位 -->
+        <attr name="unit" />
+        <attr name="unitSize" />
+        <attr name="unitColor" />
+        <!-- 圆弧宽度 -->
+        <attr name="arcWidth" />
+        <attr name="arcColors" />
+        <!-- 背景圆弧颜色 -->
+        <attr name="bgArcColor" />
+        <!-- 背景圆弧宽度 -->
+        <attr name="bgArcWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DialProgress">
+        <attr name="antiAlias" />
+        <attr name="startAngle" />
+        <attr name="sweepAngle" />
+        <attr name="animTime" />
+        <attr name="maxValue" />
+        <attr name="value" />
+        <attr name="precision" />
+        <attr name="valueSize" />
+        <attr name="valueColor" />
+        <attr name="textOffsetPercentInRadius" />
+        <!-- 绘制内容的单位 -->
+        <attr name="unit" />
+        <attr name="unitSize" />
+        <attr name="unitColor" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <!-- 圆弧的宽度 -->
+        <attr name="arcWidth" />
+        <!-- 刻度的宽度 -->
+        <attr name="dialWidth" format="dimension|reference" />
+        <!-- 刻度之间的间隔 -->
+        <attr name="dialIntervalDegree" format="integer" />
+        <!-- 圆弧颜色， -->
+        <attr name="arcColors" />
+        <!-- 背景圆弧线颜色 -->
+        <attr name="bgArcColor" />
+        <!-- 刻度线颜色 -->
+        <attr name="dialColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveProgress">
+        <!-- 是否开启抗锯齿 -->
+        <attr name="antiAlias" />
+        <!-- 深色水波动画时间 -->
+        <attr name="darkWaveAnimTime" format="integer" />
+        <!-- 浅色水波动画时间 -->
+        <attr name="lightWaveAnimTime" format="integer" />
+        <!-- 最大值 -->
+        <attr name="maxValue" />
+        <!-- 当前值 -->
+        <attr name="value" />
+        <attr name="valueColor" />
+        <attr name="valueSize" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <!-- 圆环宽度 -->
+        <attr name="circleWidth" format="dimension" />
+        <!-- 圆环颜色 -->
+        <attr name="circleColor" format="color|reference" />
+        <!-- 背景圆环颜色 -->
+        <attr name="bgCircleColor" format="color|reference" />
+        <!-- 锁定水波不随圆环进度改变，默认锁定在50%处 -->
+        <attr name="lockWave" format="boolean" />
+        <!-- 水波数量 -->
+        <attr name="waveNum" format="integer" />
+        <!-- 水波高度，峰值和谷值之和 -->
+        <attr name="waveHeight" format="dimension" />
+        <!-- 深色水波颜色 -->
+        <attr name="darkWaveColor" format="color|reference" />
+        <!-- 是否显示浅色水波 -->
+        <attr name="showLightWave" format="boolean" />
+        <!-- 浅色水波颜色 -->
+        <attr name="lightWaveColor" format="color|reference" />
+        <!-- 浅色水波的方向 -->
+        <attr name="lightWaveDirect" format="enum">
+            <enum name="L2R" value="0" />
+            <enum name="R2L" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CountDownProgress">
+        <!-- 默认圆实心的颜色 -->
+        <attr name="default_circle_solide_color" format="color"/>
+        <!-- 默认圆边框的颜色 -->
+        <attr name="default_circle_stroke_color" format="color"/>
+        <!-- 默认圆边框的宽度 -->
+        <attr name="default_circle_stroke_width" format="dimension"/>
+        <!-- 默认圆的半径 -->
+        <attr name="default_circle_radius" format="dimension"/>
+        <!-- 进度条的颜色 -->
+        <attr name="progress_color" format="color"/>
+        <!-- 进度条的宽度 -->
+        <attr name="progress_width" format="dimension"/>
+        <!-- 小圆的实心颜色 -->
+        <attr name="small_circle_solide_color" format="color"/>
+        <!-- 小圆的边框颜色 -->
+        <attr name="small_circle_stroke_color" format="color"/>
+        <!-- 小圆的边框宽度 -->
+        <attr name="small_circle_stroke_width" format="dimension"/>
+        <!-- 小圆的半径 -->
+        <attr name="small_circle_radius" format="dimension"/>
+        <!-- 文字的颜色 -->
+        <attr name="text_color" format="color"/>
+        <!-- 文字的字体大小 -->
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+    <!--流式布局-->
+    <declare-styleable name="AutoFlowLayout">
+        <attr name="singleLine" format="boolean"></attr>
+        <attr name="maxLines" format="integer"></attr>
+        <attr name="multiChecked" format="boolean"></attr>
+        <attr name="horizontalSpace" format="dimension"></attr>
+        <attr name="verticalSpace" format="dimension"></attr>
+        <attr name="columnNumbers" format="integer"></attr>
+        <attr name="rowNumbers" format="integer"></attr>
+        <attr name="cutLineWidth" format="dimension"></attr>
+        <attr name="cutLineColor" format="color"></attr>
+        <attr name="cutLine" format="boolean"></attr>
+        <attr name="lineCenter" format="boolean"></attr>
+    </declare-styleable>
+    <!--底部导航-->
+    <!--自定义ViewPager+fragment实现-->
+    <declare-styleable name="EasyNavigitionBar">
+        <!--底部导航栏高度-->
+        <attr name="Easy_navigitionHeight" format="dimension" />
+        <!--底部导航栏背景-->
+        <attr name="Easy_navigitionBackground" format="color" />
+        <!--Tab字体大小-->
+        <attr name="Easy_tabTextSize" format="dimension" />
+        <!--Tab文字距Tab图标的距离-->
+        <attr name="Easy_tabTextTop" format="dimension" />
+        <!--Tab图标大小-->
+        <attr name="Easy_tabIconSize" format="dimension" />
+        <!--Tab未选中字体颜色-->
+        <attr name="Easy_tabNormalColor" format="color" />
+        <!--Tab选中字体颜色-->
+        <attr name="Easy_tabSelectColor" format="color" />
+        <!--提示红点的大小-->
+        <attr name="Easy_hintPointSize" format="dimension" />
+        <!--消息红点的大小-->
+        <attr name="Easy_msgPointSize" format="dimension" />
+        <!--提示红点距Tab图标的距离-->
+        <attr name="Easy_hintPointLeft" format="dimension" />
+        <!--消息红点距Tab图标的距离-->
+        <attr name="Easy_msgPointLeft" format="dimension" />
+        <!--提示红点距离顶部的距离-->
+        <attr name="Easy_hintPointTop" format="dimension" />
+        <!--消息红点距顶部的距离-->
+        <attr name="Easy_msgPointTop" format="dimension" />
+        <!--消息红点数字字体大小-->
+        <attr name="Easy_msgPointTextSize" format="dimension" />
+        <!--分割线高度-->
+        <attr name="Easy_lineHeight" format="dimension" />
+        <!--分割线颜色-->
+        <attr name="Easy_lineColor" format="color" />
+
+        <!--是否有paddingBottom-->
+        <attr name="Easy_hasPadding" format="boolean"/>
+
+
+        <!--中间图片的大小-->
+        <attr name="Easy_addIconSize" format="dimension" />
+        <!--底部导航栏和加号的高度  加号会居中-->
+        <attr name="Easy_addLayoutHeight" format="dimension" />
+        <!--添加按钮距离底部的距离-->
+        <attr name="Easy_addLayoutBottom" format="dimension"/>
+        <!--图标显示-->
+        <attr name="Easy_scaleType">
+            <flag name="CENTER_INSIDE" value="0" />
+            <flag name="CENTER_CROP" value="1" />
+            <flag name="CENTER" value="2" />
+            <flag name="FIT_CENTER" value="3" />
+            <flag name="FIT_END" value="4" />
+            <flag name="FIT_START" value="5" />
+            <flag name="FIT_XY" value="6" />
+            <flag name="MATRIX" value="7" />
+        </attr>
+
+
+        <!--图标显示-->
+        <attr name="Easy_addLayoutRule">
+            <flag name="RULE_CENTER" value="0" />
+            <flag name="RULE_BOTTOM" value="1" />
+        </attr>
+        <!-- true 点击加号切换fragment
+         false 点击加号不切换fragment进行其他操作（跳转界面等）-->
+        <attr name="Easy_addAsFragment" format="boolean"/>
+        <attr name="Easy_addSelectTextColor" format="color"/>
+        <attr name="Easy_addNormalTextColor" format="color"/>
+        <attr name="Easy_addTextSize" format="dimension"/>
+        <!--加号文字距离顶部加号的距离-->
+        <attr name="Easy_addTextTopMargin" format="dimension"/>
+        <!--是否和其他tab文字底部对齐-->
+        <attr name="Easy_addAlignBottom" format="dimension"/>
+
+
+
+    </declare-styleable>
+
+
+    <!--日历-->
+    <declare-styleable name="day">
+        <attr name="state_current" format="boolean" />
+    </declare-styleable>
+    <attr name="calendarViewStyle" format="reference" />
+
+    <!--刷新-->
+    <declare-styleable name="CirCleRefreshLayout">
+        <attr name="AniBackColor" format="color" />
+        <attr name="AniForeColor" format="color" />
+        <attr name="CircleSmaller" format="integer"/>
+    </declare-styleable>
+    <!--报名成功动画UI-->
+    <declare-styleable name="ProcessSuccessView">
+        <!--滑动圆点的半径-->
+        <attr name="sign_thumb_radius" format="dimension"/>
+        <!--到达的颜色-->
+        <attr name="sign_color_reached" format="color"/>
+        <!--未到达的颜色-->
+        <attr name="sign_color_unreached" format="color"/>
+        <!--textsize的大小-->
+        <attr name="sign_textsize" format="dimension"/>
+        <!--text的颜色-->
+        <attr name="sign_text_color" format="color"/>
+        <!--线的宽度-->
+        <attr name="sign_line_width" format="dimension"/>
+        <!--状态文字数组-->
+        <attr name="texts" format="reference"/>
+    </declare-styleable>
+    <!--自定义EditText-->
+    <declare-styleable name="PowerfulEditText">
+        <!--图片资源-->
+        <attr name="clearDrawable" format="reference"/>
+        <attr name="visibleDrawable" format="reference"/>
+        <attr name="invisibleDrawable" format="reference"/>
+        <!--按钮宽度大小-->
+        <attr name="BtnWidth" format="dimension"/>
+        <!--按钮间距大小-->
+        <attr name="BtnSpacing" format="dimension"/>
+        <!--边框颜色和样式-->
+        <attr name="styleColor" format="color"/>
+        <attr name="borderStyle" format="string" />
+    </declare-styleable>
+</resources>

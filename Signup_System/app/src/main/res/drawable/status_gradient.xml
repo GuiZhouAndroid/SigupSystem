@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="0"
+        android:endColor="#699dcf"
+        android:startColor="#0a67ba" />
+    <!-- shape节点中, 可以通过android:shape来设置形状, 默认是矩形.
+    gradient节点中angle的值270是从上到下，90是从下到上,0是从左到右，180是从右到左。
+    此处的效果就是从下向上-->
+    <!--仿QQ-->
+    <!--<gradient-->
+        <!--android:angle="0"-->
+        <!--android:endColor="#45b6f9"-->
+        <!--android:startColor="#1089f4" />-->
+</shape>

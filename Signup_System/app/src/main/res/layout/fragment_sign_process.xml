@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhangsong.com.signup_system.base.Widget.StepView
+        android:id="@+id/stepView"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d2d2d2"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/sp_15"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_gravity="center">
+        <Button
+
+            android:id="@+id/btn_sign_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/btn_login_bg"
+            android:gravity="center"
+            android:text="@string/signup_back"
+            android:textSize="@dimen/sp_17"
+            android:textColor="@color/White" />
+        <Button
+            android:layout_marginStart="@dimen/dp_30"
+            android:id="@+id/btn_sign_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/btn_login_bg"
+            android:gravity="center"
+            android:text="@string/signup_next"
+            android:textSize="@dimen/sp_17"
+            android:textColor="@color/White" />
+    </LinearLayout>
+</LinearLayout>

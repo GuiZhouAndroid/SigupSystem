@@ -1,0 +1,361 @@
+<resources>
+    <string name="app_name">高新报名助手</string>
+    <string name="toolbar_location">黔南布依苗族自治州-都匀</string>
+    <string name="username">用户名</string>
+    <string name="PhoneAndUsername">手机号或用户名</string>
+    <string name="password">密码</string>
+    <string name="newPassword">新密码</string>
+    <string name="weChat">微信快捷登录</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="clear_all">清空</string>
+    <string name="history_search">搜索历史</string>
+    <string name="QQ">QQ快捷登录</string>
+    <string name="forgetpassword">忘记密码?</string>
+    <string name="MobilePhoneRegister">手机号注册</string>
+    <string name="pleaseInputPhone">手机号码</string>
+    <string name="pleaseInputPhoneCode">输入6位数验证码</string>
+    <string name="login">登\t\t\t\t\t录</string>
+    <string name="nav_view_login_show">登\t\t录</string>
+    <string name="register">注\t\t\t\t\t册</string>
+    <string name="new_fresh">刷新</string>
+    <string name="no_account">没有账号？去注册</string>
+    <string name="sign_query">报名查询</string>
+    <string name="sign_Encyclopedias">报名百科</string>
+    <string name="update_password">密码修改</string>
+    <string name="My_Mine">我的资料</string>
+    <string name="sign_query_eidt_code">请输入凭证号</string>
+    <string name="enter_password_again">再输入一次密码</string>
+    <string name="have_account">已有账户？去登录</string>
+    <string name="rememberPasswrod">想起密码？去登录</string>
+    <string name="qr_sweep">扫一扫</string>
+    <string name="drawer_menu_info_school">进入官网</string>
+    <string name="drawer_menu_see_calendar">查看日历</string>
+    <string name="drawer_menu_night_mode">夜间模式</string>
+    <string name="drawer_menu_about_author">关于作者</string>
+    <string name="drawer_menu_logout_title">退出登录</string>
+    <string name="drawer_menu_setting_title">软件设置</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="setting_cache">自动缓存</string>
+    <string name="setting_normal">通用设置</string>
+    <string name="setting_image">无图模式</string>
+    <string name="setting_night">夜间模式</string>
+    <string name="setting_other">其它设置</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_clear">清除缓存</string>
+    <string name="scale_down_show_behavior">com.zhangsong.com.signup_system.behavior.FloatingActionButton.ScaleDownShowBehavior</string>
+    <string name="bottom_behavior">com.zhangsong.com.signup_system.behavior.BottomNavigation.BottomNavigationBehavior</string>
+    <string name="content">要实现这样的效果, 需要用到:
+CoordinatorLayout和AppbarLayout的配合, 以及实现了NestedScrollView的布局或控件.
+AppbarLayout是一种支持响应滚动手势的app bar布局, CollapsingToolbarLayout则是专门用来实现子布局内不同元素响应滚动细节的布局.
+与AppbarLayout组合的滚动布局(RecyclerView, NestedScrollView等),需要设置 app:layout_behavior = "@string/appbar_scrolling_view_behavior" .没有设置的话, AppbarLayout将不会响应滚动布局的滚动事件.
+我们回到再前面一章"Toolbar的使用", 将布局改动如下:
+作者：朋朋彭哥
+链接：https://www.jianshu.com/p/bbc703a0015e
+來源：简书
+        要实现这样的效果, 需要用到:
+CoordinatorLayout和AppbarLayout的配合, 以及实现了NestedScrollView的布局或控件.
+AppbarLayout是一种支持响应滚动手势的app bar布局, CollapsingToolbarLayout则是专门用来实现子布局内不同元素响应滚动细节的布局.
+与AppbarLayout组合的滚动布局(RecyclerView, NestedScrollView等),需要设置 app:layout_behavior = "@string/appbar_scrolling_view_behavior" .没有设置的话, AppbarLayout将不会响应滚动布局的滚动事件.
+我们回到再前面一章"Toolbar的使用", 将布局改动如下:
+作者：朋朋彭哥
+        要实现这样的效果, 需要用到:
+CoordinatorLayout和AppbarLayout的配合, 以及实现了NestedScrollView的布局或控件.
+AppbarLayout是一种支持响应滚动手势的app bar布局, CollapsingToolbarLayout则是专门用来实现子布局内不同元素响应滚动细节的布局.
+与AppbarLayout组合的滚动布局(RecyclerView, NestedScrollView等),需要设置 app:layout_behavior = "@string/appbar_scrolling_view_behavior" .没有设置的话, AppbarLayout将不会响应滚动布局的滚动事件.
+我们回到再前面一章"Toolbar的使用", 将布局改动如下:
+作者：朋朋彭哥
+        要实现这样的效果, 需要用到:
+CoordinatorLayout和AppbarLayout的配合, 以及实现了NestedScrollView的布局或控件.
+AppbarLayout是一种支持响应滚动手势的app bar布局, CollapsingToolbarLayout则是专门用来实现子布局内不同元素响应滚动细节的布局.
+与AppbarLayout组合的滚动布局(RecyclerView, NestedScrollView等),需要设置 app:layout_behavior = "@string/appbar_scrolling_view_behavior" .没有设置的话, AppbarLayout将不会响应滚动布局的滚动事件.
+我们回到再前面一章"Toolbar的使用", 将布局改动如下:
+作者：朋朋彭哥
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。要实现这样的效果, 需要用到:
+CoordinatorLayout和AppbarLayout的配合, 以及实现了NestedScrollView的布局或控件.
+AppbarLayout是一种支持响应滚动手势的app bar布局, CollapsingToolbarLayout则是专门用来实现子布局内不同元素响应滚动细节的布局.
+与AppbarLayout组合的滚动布局(RecyclerView, NestedScrollView等),需要设置 app:layout_behavior = "@string/appbar_scrolling_view_behavior" .没有设置的话, AppbarLayout将不会响应滚动布局的滚动事件.
+
+我们回到再前面一章"Toolbar的使用", 将布局改动如下:
+
+作者：朋朋彭哥
+链接：https://www.jianshu.com/p/bbc703a0015e
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。要实现这样的效果, 需要用到:
+CoordinatorLayout和AppbarLayout的配合, 以及实现了NestedScrollView的布局或控件.
+AppbarLayout是一种支持响应滚动手势的app bar布局, CollapsingToolbarLayout则是专门用来实现子布局内不同元素响应滚动细节的布局.
+与AppbarLayout组合的滚动布局(RecyclerView, NestedScrollView等),需要设置 app:layout_behavior = "@string/appbar_scrolling_view_behavior" .没有设置的话, AppbarLayout将不会响应滚动布局的滚动事件.
+我们回到再前面一章"Toolbar的使用", 将布局改动如下:
+作者：朋朋彭哥
+链接：https://www.jianshu.com/p/bbc703a0015e
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</string>
+    <string name="signqq">同学，您已报名成功！请关注高新报名QQ群获取最新信息通知，感谢配合！\n\t\t\t\t\t————QQ群号：477268378</string>
+    <string name="menu_sousuo">搜索</string>
+    <string name="menu_qr_sweep">扫一扫</string>
+    <string name="nn_browser">在浏览器打开</string>
+    <string name="i_kown">我知道了</string>
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+    <!--报名模块-->
+    <string name="tv_signup_title">填写报名资料</string>
+    <string name="tv_signup_notes">报  名  须  知</string>
+    <string name="signup_name">姓名</string>
+    <string name="signup_sex">性别</string>
+    <string name="signup_nation">民族</string>
+    <string name="signup_id_card">身份证号</string>
+    <string name="signup_input_id_card">请填写</string>
+    <string name="signup_culture_degree">文化程度</string>
+    <string name="signup_politics_face">政治面貌</string>
+    <string name="signup_contact_telephone">联系电话</string>
+    <string name="signup_contact_input_telephone">请填写</string>
+    <string name="signup_declare_occupation">申报职业</string>
+    <string name="signup_declare_hrade">申报级别</string>
+    <string name="signup_Two_exams">是否二考</string>
+    <string name="signup_examination_time">考试时间</string>
+    <string name="signup_voucher_number">凭证号码</string>
+    <string name="signup_work_company">工作单位</string>
+    <string name="signup_remarks">备注</string>
+    <string name="signup_submission">提交</string>
+    <string name="signup_fillin">请填写</string>
+    <string name="signup_whetherornot">是/否</string>
+    <string name="signup_name_input_name">请填写</string>
+    <string name="signup_next">下一步</string>
+    <string name="signup_back">上一步</string>
+    <string name="sign_tv_notes">\n\t\t\t【报考科目】\n\n\t\t一、办公软件应用（office2010）\n\n\t\t二、图像图像处理（PhotoShopCS5）
+        \n\n\t\t三、因特网应用高级（ASP.net）\n\n\t\t四、AutoCAD2010高级（建筑）\n\n\t\t五、AutoCAD2005高级（建筑）
+        \n\n\t\t六、AutoCAD2010高级（机械）\n\n\t\t\t【报考科目】\n\n\t\t【报考时间】：根据黔南职院通知确定 \n\n\t\t【报考费用】：
+        200元/人（微信支付）\n\n\t\t【报考地址】：黔南职院xx机房 \n\n\t\t【咨询电话】：123456789 \n\n\t\t【上班时间】：
+        周一至周五（节假日休息）\n\n\t\t【注意事项】：考生不得重复报考同一级别同一科目多次，不能同时报考同
+        一级别的两个以 上科目，否则黔南职院将不予接收报名数据。\n\n\t\t【考试成绩查询】：查询模块输入姓名+身份证验证查询</string>
+
+    <!--报名缴费-->
+    <string name="main_pay_total">合计: &lt;font color=\'#FF3003\'&gt;%.0f&lt;/font&gt;元</string>
+    <string name="main_pay_total1">合计: &lt;font color=\'#FF3003\'&gt;%.2f&lt;/font&gt;元</string>
+
+    <string name="orderlist_no">凭证号码: %s</string>
+    <string name="orderlist_amout">缴费金额 &lt;font color=\'#FF3003\'&gt;￥%s&lt;/font&gt;元</string>
+
+    <string name="main_topay_fail">缴费金额不正确</string>
+    <string name="main_order_subject">支付标题</string>
+    <string name="main_order_body">支付主体</string>
+
+    <string name="main_pay_success">报名成功</string>
+    <string name="main_Query_success">查询成功，请各位同学认真核对！</string>
+    <string name="main_pay_fail">报名失败</string>
+    <string name="main_pay_cancel">报名取消</string>
+    <string name="main_pay_invalid_channel">支付渠道未开通</string>
+
+    <string name="dialog_pay_fail">支付失败，请稍后再试</string>
+    <!--日历-->
+    <string name="time_next">Next</string>
+    <string name="time_prev">Previous</string>
+    <string-array name="weeks">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+    <!--Bmob-->
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!--填写资料-->
+    <string name="signName">您还没有填写姓名！</string>
+    <string name="signSex">您还没有填写性别！</string>
+    <string name="signNation">您还没有填写民族！</string>
+    <string name="signIdCard">您还没有填写身份证号码！</string>
+    <string name="signCultureDegree">您还没有填写文化程度！</string>
+    <string name="signPoliticsFace">您还没有填写政治面貌！</string>
+    <string name="signContactTelephone">您还没有填写联系电话！</string>
+    <string name="signDeclareOccupation">您还没有填写申报职业！</string>
+    <string name="signDeclareHrade">您还没有填写申报级别！</string>
+    <string name="signTwoExams">您还没有填写是否二考！</string>
+    <string name="signExaminationTime">您还没有填写考试时间！</string>
+    <string name="signWorkCompany">您还没有填写工作单位！</string>
+    <string name="prompt">提示</string>
+    <string name="SMS_Code_Get_Success">验证码获取成功，请注意查收！</string>
+    <string name="close_click_again">再次点击退出应用</string>
+    <string name="Query_networkConnError">查询超时，请检查您的网络</string>
+    <string name="networkConnError">服务器连接失败，请检查您的网络</string>
+    <string name="SMSCodeError">验证码不正确或已使用过失效了！</string>
+    <string name="requestOvertime">服务器发呆啦...验证超时，请稍候再试！</string>
+    <string name="SignVerification">验证码不匹配，请认真核查！</string>
+    <string name="SignQueryCode">凭证号不匹配，请认真核查！</string>
+    <string name="unknown_error">未知错误！请在关于作者获取开发者资料反馈联系！</string>
+    <string name="Success_Notes">\n\n\t\t\t\t须知：请妥善保管随机凭证号！(建议截图上传微云或其他云端)此页面关闭或重启应用后，
+        将不能再次通过您刚才填写的“身份证号码”和“手机号码”报名！此凭证号，方便考务人员管理同学们的报名信息,请知悉！“如果其他同学用你已登账户进行报名，重启应用即可！”\n\t\t\t\t如有遗忘，请联系开发者找回\n\t\t\t\t联系方式：\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t微信：zs1210762604 \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t腾讯QQ：1210762604</string>
+    <string name="logout">退出登录</string>
+    <string name="link_start">登录</string>
+    <string name="login_successful">登录成功</string>
+    <string name="login_error">登录失败</string>
+    <string name="login_error_name_or_password_incorrect">用户名或密码错误，密码区分大小写！</string>
+    <string name="registerAccount">去注册</string>
+    <string name="prompt_userName">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_password_confirm">确认密码</string>
+    <string name="password_reset_Success">密码重置成功！</string>
+    <string name="mine">个人资料</string>
+    <string name="please_input_user_name">请输入账号</string>
+    <string name="please_input_user_name_password">请输入用户名和密码</string>
+    <string name="please_input_Correct_Phone_resetPassword">请输入正确手机号或新密码! 提醒:密码必须包含大小写字母和数字的组合，不能使用特殊字符，长度在 8-10 之间！</string>
+    <string name="please_input_Correct_Phone">请输入正确手机号或密码! 提醒:密码必须包含大小写字母和数字的组合，不能使用特殊字符，长度在 8-10 之间！</string>
+    <string name="please_input_Correct_SMS_Code">请输入6位数的验证码</string>
+    <string name="night_mode">夜间模式待实现</string>
+    <string name="Phone_And_UsernameNo_Null">请输入手机号、用户名</string>
+    <string name="Username_And_Pwd_No_Null">请输入用户名、密码</string>
+    <string name="Username_And_SMS_Code_No_Null">请输入用户名、验证码</string>
+    <string name="Pwd_And_SMS_Code_No_Null">请输入密码、验证码</string>
+    <string name="Phone_And_Pwd_And_SMS_Code_No_Null">请输入手机号、密码、验证码</string>
+    <string name="Phone_And_Pwd_AndNo_Null">请输入手机号、密码</string>
+    <string name="Username_Pwd_AndNo_Null">请输入用户名、密码、验证码</string>
+    <string name="Phone_And_SMS_Code_No_Null">请输入手机号、验证码</string>
+    <string name="Phone_And_No_Null">请输入手机号</string>
+    <string name="Username_And_No_Null">请输入用户名</string>
+    <string name="Invalid_SMS_Code">无效的验证码</string>
+    <string name="please_input_sign_code">请填入报名码</string>
+    <string name="please_input_Verification_code">请输入验证码</string>
+    <string name="sign_over">您已报名成功，去查询核对资料吧！</string>
+    <string name="please_input_query_code">请填入凭证号</string>
+    <string name="please_input_old_password">请填入旧密码</string>
+    <string name="please_input_new_password">请填入新密码</string>
+    <string name="password_old_important">旧密码必须输入包含大小写字母和数字的组合，不能使用特殊字符，长度在 8-10 之间</string>
+    <string name="password_new_important">新密码必须输入包含大小写字母和数字的组合，不能使用特殊字符，长度在 8-10 之间</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="please_do_login">请先登录后使用</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="join_us">注册</string>
+    <string name="user_name_is_not_empty">用户名不能为空</string>
+    <string name="password_old">旧&#160;&#160;密&#160;&#160;码</string>
+    <string name="password_new">新&#160;&#160;密&#160;&#160;码</string>
+    <string name="password_confirm">确认密码</string>
+    <string name="password_old_please">请输入您的旧密码</string>
+    <string name="password_new_please">请输入您的新密码</string>
+    <string name="password_confirm_please">请再次输入您的新密码</string>
+    <string name="password_old_different">旧密码输入错误</string>
+    <string name="password_new_different">两次输入的新密码不一致</string>
+    <string name="password_reset_successful">密码修改成功</string>
+    <string name="password_reset_error">密码修改失败</string>
+    <string name="register_ok">注册成功，请牢记您的用户名和密码</string>
+    <string name="register_error_user_already_taken">注册失败！请核查《输入验证码是否匹配短信验证码》或《此手机号已注册过！》提示：若《验证码匹配无误》，则您刚获取并使用的《验证码已失效》，《须换手机号》重新获取继续验证注册！</string>
+    <string name="register_error">注册失败</string>
+    <string name="error_register_invalid_name">昵称在3-10字符之间，且不能包含空格、\'等特殊符号</string>
+    <string name="error_register_invalid_password">密码在6-16字符之间，且不能包含空格、\'等特殊符号</string>
+    <string name="error_register_invalid_confirm_password">两次密码不一致</string>
+    <string name="show_password">显示密码</string>
+    <string name="click_user_image">点击头像登录</string>
+    <string name="logout_success">登出成功</string>
+    <string name="signature">您还没有设置个性签名，点击头像设置</string>
+    <string name="user_image">头像</string>
+    <string name="user_id">ID</string>
+    <string name="user_role">角色</string>
+    <string name="user_nick_name">昵称</string>
+    <string name="user_sex">性别</string>
+    <string name="user_signature">个性签名</string>
+    <string name="no_file">没有文件</string>
+    <string name="user_pro">头衔</string>
+    <string name="user_level">等级</string>
+    <string name="user_register_date">注册时间</string>
+    <string name="loading">正在加载...</string>
+    <string name="loading_login">正在登录...</string>
+    <string name="loading_Submission">正在提交...</string>
+    <string name="loading_VerificationCode">正在验证...</string>
+    <string name="loading_Query">正在查询...</string>
+    <string name="loading_delete">正在删除...</string>
+    <string name="loading_update">正在更新...</string>
+    <string name="loading_update_pwd">正在重置密码...</string>
+    <string name="loading_register">正在注册...</string>
+    <string name="delete_successful">删除成功</string>
+    <string name="clean_successful">清理完成！</string>
+    <string name="load_all">已加载全部</string>
+    <string name="delete">删除</string>
+    <string name="select_picture">选择图片</string>
+    <string name="sign_idCardAndContactNumber">提交失败！此身份证号码或手机号码已提交过了，不得使用相同身份证码或手机号码重复报名！</string>
+    <string name="determine">确定</string>
+    <string name="select_video">选择视频</string>
+    <string name="comfirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="token_exp">当前用户登录已过期,请重新登录</string>
+    <string name="update_complete">更新完成</string>
+    <string name="update_ResetOK">重置完成</string>
+    <string name="update_ResetNo">重置失败</string>
+    <string name="update_error">更新失败</string>
+    <string name="crop_pick_error">图片资源缺失</string>
+
+    <string name="setting_to">前往设置</string>
+    <string name="cancel_next">下次再说</string>
+    <string name="prompt_permission">您拒绝了该项功能所需权限的申请，将不能使用该功能，如您需要使用，请前往设置或安全中心开启权限后重新操作</string>
+    <string name="mine_update">更新</string>
+    <string name="tv_tooblar_hello">,您好</string>
+    <string name="tv_home_hot">热门报名</string>
+    <string name="See_More">查看更多>></string>
+    <string name="tv_home_grid">助手专栏</string>
+    <string name="tv_sign_Encyclopedias">报名百科</string>
+    <!--报名百科-->
+    <string name="tv_title1_content">
+        \t\t\t\t全国计算机信息高新技术考试是劳动和社会保障部为适应社会发展和科技进步的需要，提高劳动力素质和促进就业，加强计算机信息高新技术领域新职业、新工种职业技能的培训考核工作，于1996年，以"劳部发[1996]19号"文件《关于开展计算机信息高新技术培训考核工作的通知》，由劳动和社会保障部职业技能鉴定中心组织实施，在全国范围内开展的一项培训和相应的考试工作。
+        开展全国计算机信息高新技术考试的主要目的，是为了推动高新技术在我国的迅速普及和推广应用，提高计算机信息高新技术应用者的操作水平和高新技术装备的使用效率，给计算机信息高新技术应用人员的上岗择业、人才交流提供一个标准化的技能水平测试和能力证明，使我国的劳动资源配置逐步适应科技进步和社会主义市场经济的需要。
+        全国计算机信息高新技术考试遵循以下几个原则：
+        \n\t\t\t\t一、 考试面向全社会的普通劳动者，重点测评考生掌握计算机各类实际应用技能的水平。因此，培训和考试以实际操作为主，考试方法是在计算机上使用相应的程序完成具体的作业任务。
+         \n\t\t\t\t二、 考试内容动态跟踪计算机应用技术领域中技术先进、应用广泛的成熟产品，体现较高的计算机技术含量和最新的应用技术，将计算机信息高新技术应用领域的繁多内容按职业功能归类为模块，再按操作特点分解为技能点，并以不同的难度、效度或相关技能掌握范围确定考试等级。及时根据技术发展水平及社会接受程度，推出和更新标准、大纲和题库。
+         \n\t\t\t\t三、 考试由部职业技能鉴定中心和各省、市、自治区的劳动职业技能鉴定指导机构在全国统一组织实施，考核体系中的证书、标准、大纲、题库、考核、管理全部统一，保证考试的权威性和一致性。
+         \n\t\t\t\t四、 考试设计和组织实施贯彻公开、公平、公正原则，公开全部考核标准、考试大纲、考试题库和评分标准；每个考生逐一随机抽题，各个考生在一场考试中题目各不相同；以严密的质量监督体系为保障，建立了从标准制订、题库制作、考试组织、成绩评定到结果复核、证书发放等一整套由严格的行政监管规定和技术保障制度组成的质量监督体系。
+         \n\t\t\t\t五、 积极研究和探索先进的考试理论、考试技术和考试方法，促进考试手段的更新和发展，不断提高考核测试水平和效率。
+         \n\t\t\t\t六、 根据劳部发[1996]19号文件要求，部鉴定中心及时颁发了一系列配套文件：
+         \n\t\t\t\t* 劳职鉴字[1996]07号《关于开展计算机及信息高新技术培训考试全国推广试点工作的通知》
+         \n\t\t\t\t* 劳职鉴字[1996]16号《关于计算机及信息高新技术培训考试收费标准的通知》
+         \n\t\t\t\t* 部职业技能开发司、部职业技能鉴定中心联合下发的劳培司[1997]63号《关于在全国开展计算机信息高新技术考试扩大试点工作的通知》
+         \n\t\t\t\t* 劳社鉴发[2000]13号《关于在全国计算机信息高新技术考试中开展智能化考试试点工作的通知》
+        同时制定了与考试配套的标准、规程、管理办法：
+        \n\t\t\t\t*《计算机信息高新技术考试技能培训和鉴定标准》
+        \n\t\t\t\t*《计算机信息高新技术考试考务管理规程》
+        \n\t\t\t\t*《计算机信息高新技术考评员资格认定和管理暂行办法》
+         \n\t\t\t\t*《计算机信息高新技术考试站管理暂行办法》
+        \n\t\t\t\t*《全国计算机信息高新技术智能化考试实施细则》
+        根据部、司和部中心的文件、规定和管理办法，各省、市、自治区结合本地实际情况，颁发了考试在本地开展的文件和实施方案。
+</string>
+ <string name="tv_title2_content">
+     \t\t\t\t一、全国计算机高新技术考试，是为适应市场经济环境要求，开设的一项技术水平高、质量要求严、涉及面较广的国家职业技能考试。它采用国际通行的专项职业技能鉴定方式，测定应试者的计算机应用技术能力，作为具备从事相应工作能力的凭证。《中共中央国务院关于深化教育改革全面推进素质教育的决定》中第二十五条明确规定；改革社会用人制度，积极推行劳动预备制度，坚持实行;先培训、后上岗;的就业制度，继续改革大中专毕业生就业制度，使学生树立正确的择业观。地方政府教育部门要与人事、劳动和社会保障部门共同协调，形成使用人才重素质、重实际能力的良好风气。在全社会实行学业证书和职业资格证书并重制度。最近国家教育部、国家计委在教发[1999]2号文中对高等职业技术教育改革也作出明确规定：高等职业学院的毕业生在毕业时，同时取得相应的学业证书和职业资格证书。劳动和社会保障部在[1993]31号文《关于印发在职业培训工作中贯彻落实中共中央国务院关于深化教育改革全面推进素质教育的决定若干意见的通知》中第十一条规定：严格实行就业准入控制，全面落实先培训后就业，先培训后上岗的制度。落实就业准入，推行职业资格证书制度。
+      \n\t\t\t\t二、全国计算机信息高新技术考试简介
+     全国计算机信息高新技术考试采用了国际上科学、先进的技能测评手段，设计科学合理，可操作性强，规范实用，适合国情特点和社会广泛需要。现根据不同应用领域特征划分为：因特网（INTERNET）应用、办公软件应用、数据库应用、计算机辅助设计、图形图像处理、专业排版、微型计算机安装调试与维修、会计软件应用、多媒体制作、网络管理、应用程序编程等十二个技能培训考核模块。根据计算机应用技术的发展和实际需要培训考核模块将逐步扩充。 参加全国计算机信息高新技术培训考试合格者，由劳动和社会保障部职业技能鉴定中心统一核发;计算机信息高新技术培训合格证书;。该证书作为计算机操作技能水平的基础性职业资格证书，在要求计算机操作能力并实行岗位准入控制的相应职业作为上岗证；在其他就业和职业评聘领域作为计算机相应操作能力的证明。通过计算机信息高新技术考试，获得操作员、高级操作员资格者，分别视同于中华人民共和国中级、高级技术等级，使用及待遇参照相应规定执行；获得操作师、高级操作师资格者，参加技师、高级技师技术职务评聘时分别作为其专业技能的依据。
+      \n\t\t\t\t三、全国计算机信息高新技术考试的权威性和国际性
+     美国全美评测软件公司（认证中心）ATA在全美举行的PROVEIT全美认证考试理念，被美国三十几个州和欧美国际知名企业如微软的ATC这交到中国来，经过几方接触、相互比较，最终于今年9月与劳动和社会保障部职业鉴定中心达成合作协议，使全国计算机信息高新技术走向世界与国际接轨。因此，全国计算机信息高新技术考试在国内各种计算机考试中是很有权威性的一种考试，简单表示为：国家职业资格证书〈═〉就业准入〈═〉国际通用。此项计算机考试是对传统考试模式的一次革命，对职业教育的考试模式改革将产生巨大影响。
+     \n\t\t\t\t 四、认证介绍
+     随着计算机技术在我国各个领域的推广、普及、越来越多的人开始学习计算机知识，许多用人部门已将是否具有一定的计算机知识与能力作为考核和录用工作人员的标准之一。因此，经教育部批准，决定举办全国计算机等级考试，其目的在于推广应用，以适应社会主义经济建设的需要，为用人部门录用和考核工作人员服务。该考试面向社会，服务于劳动市场，为人员择业、人才流动提供计算机应用知识与能力的证明，以使用人部门录用和考核工作人员时有一个统一、客观、公正的标准。
+
+</string>
+    <string name="tv_title3_content">
+         \t\t\t\t一、考试名称
+    劳动和社会保障部全国计算机信息高新技术考试（全称）
+    国家计算机高新技术考试（简称）
+         \n\t\t\t\t二、证书名称
+    全国计算机信息高新技术考试合格证书（全称）
+    OSTA计算机认证（简称）
+        \n\t\t\t\t 三、考试战略
+    科学严谨，公开公正，质量第一，社会效应第一，求职效应第一。为推动计算机及信息技术的普及和推广服务，使计算机真正成为信息时代的劳动工具，为促进劳动者就业服务。国家将坚决实施“名牌证书战略”，使证书具有科学性、客观性、公正性、权威性和法律效用性。
+</string>
+    <string name="tv_title4_content">
+         \t\t\t\t全国计算机信息高新技术考试标准充分查找了有关资料、参考国内外相应考核工作的有关情况并广泛征求各方面意见。其制定综合考虑到国内各单位技术装备和管理水平，并根据近期内的技术进步、设备更新等各种因素，提出了《考试标准》和《考试大纲》。为适应计算机及信息产业的发展，高新技术考试有许多鲜明的特点，比较突出的有以下几点：
+    　\t\t\t\t1．模块化的“技能培训和鉴定标准”体系：所谓模块化的考试设计，就是根据不同领域中的计算机应用情况，以职业功能分析法为依据建立若干个实用软件的独立考核模块，应试者可根据自己工作岗位的需要选择考核模块，有效地解决了不同计算机专业应用领域的特殊性问题。
+   　 模块化的体系密切结合计算机技术迅速发展的实际情况，根据软硬件发展的特点来设计考试模块和考核标准及方法，尽量采用最先进的软件，如在办公软件应用模块操作员级考试中，我们开设的WINDOWS系列考试内容为WORD和EXCEL，在刚推出来时，需要在至少8兆内存的486以上机型上考试，而随着计算机软硬件技术的发展，试题也做了些更新，现在已需要在至少16兆内存的586以上机型上考试了。当然，我们也考虑到各地发展的不平衡性，同时推出了DOS系列考试，内容虽然包括在DOS条件下最先进的CCED中文字表软件，但在386机型上就可完成。
+    　\t\t\t\t2．以实用软件操作为对象的标准化作业试题：以实用软件操作为对象的标准化作业试题，是指考试命题设计以实用软件为对象，以操作技能为核心，以标准作业为载体，并需充分体现出重点测试应试者掌握具体软件包的专业应用技能的基本设计思想。
+   　 采用标准化考试方法。其含义是采用标准的模块化考试结构，用统一的标准编制模块化的试题、大纲、教材等，并用适应计算机特点的标准方法进行考试。所谓标准化就是根据计算机应用特点分类，形成大的应用模块，如办公软件应用模块、数据库应用模块、因特网应用模块、微型计算机安装调试与维修模块。每个大模块内，又根据相关软件的特点，分成小的系列，如WINDOWS平台下的WINDOWS、WORD、EXCEL套件，DOS平台下的UCDOS、CCED套件等，再从小系列中取出考核点，形成考核单元，如汉字输入、文字编排、表格制作、数据统计、图形混排、排版打印等进行考试。证书按大模块（即应用模块）发，并注明所考的小系列（即所用软件）及所得成绩，不再分项注明考核单元（即实际能力）的具体等级。这样的设计，能适应计算机技术的发展，可用不同模块根据考生需要拼出相应的应用能力，并可很方便地增加、删除或修改某些模块。考生可根据自身条件和求职方向，选考相应的模块或系列；用人单位也可从相关证书上清楚了解求职者的实际能力，能有效地提高就业准确率。
+  　 \t\t\t\t 3. 专业而实用的考试方式 ：高新技术考试重在考核计算机软件的操作能力，完全摒弃了没有实用价值的纯学术性理论知识。它以软件操作能力为主要对象，属于专项考试性质，侧重专门软件的应用，培养具有熟练的计算机相关软件操作能力的普通工作者。
+    　采用随培随考的方法，不搞全国统一时间的考试，以适应考生需要。考试站在确定考试时间后，提前向考试服务中心提交考试申请，由考试服务中心下发考生选题单，考试站按时组织考试。
+   　 向社会公开试题和标准答案，不搞猜题战术，以求公平并提高学习效率。基本思路是建立题库，从中选做。题库目前为，每个模块八个单元，每个单元含20道题。考试时从每个单元的20道题中，随机抽取1道题组成1套有8道题的考生的试题。事实证明，考试的实际效果很好，考题按平时工作需要出，不需要另加专门的考试系统，考试通过者便会做具体工作；考试的内容很全面，比如WINDOWS系列，可以考文字处理、表格处理、数据处理、图文混排、库表转换等传统考试一般无法考的内容，考生实际操作水平高，还避免了死记硬背和工作不相干的理论和知识；考生根据自己考试前的能力，基本可知能否考试过关。
+    　\t\t\t\t4．统一和程序化的考试管理系统 ：所谓统一和程序化的考试管理系统，其实就是真正贯彻和落实了我们过去一直强调和要求的“五统一”的原则进行质量管理，即“统一命题、统一考务管理、统一考评员资格、统一培训考核机构条件标准、统一颁发证书”。每一个考核模块都制定了相应的鉴定标准和考试大纲，各地区进行培训和考试都招待统一的标准和大纲，并使用统一教材，以避免“因人而异”的随意性，使证书获得者的水平具有等价性。
+    </string>
+</resources>

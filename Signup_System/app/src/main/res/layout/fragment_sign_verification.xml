@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:padding="@dimen/dp_20"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.zhangsong.com.signup_system.view.PowerfulEditText
+            android:id="@+id/edit_verification"
+            android:hint="填入报考码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            app:clearDrawable="@drawable/edit_clear_all"
+            app:visibleDrawable="@drawable/visible"
+            app:invisibleDrawable="@drawable/invisible"
+            app:BtnWidth="@dimen/btn_edittext_width"
+            app:BtnSpacing="@dimen/btn_edittext_padding"
+            app:borderStyle="halfRect"
+            app:styleColor="#ff0000"
+            android:maxLength="8"
+            android:singleLine="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_show1"
+            android:textSize="@dimen/sp_14"
+            android:padding="@dimen/dp_15"
+            android:gravity="center"
+            android:text="验证说明：填写正确的报考码，验证通过进行填写资料"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

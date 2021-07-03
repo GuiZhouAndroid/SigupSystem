@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.zhangsong.com.signup_system"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        sourceSets{
+            main{
+                jniLibs.srcDir 'libs'
+                //说明so的路径为该libs路径，关联所有地图SDK的so文件
+            }
+        }
+    }
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    //刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    //有限的窗口中展示大量数据集
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    //bmob-sdk,Bmob的数据存储
+    implementation 'cn.bmob.android:bmob-sdk:3.7.8'
+    //bmob-sms ：Bmob单独为短信服务提供的包
+    implementation 'cn.bmob.android:bmob-sms:1.0.1'
+    // Bmob 如果你想应用能够兼容Android6.0，请添加此依赖(org.apache.http.legacy.jar)
+    implementation 'cn.bmob.android:http-legacy:1.0'
+    //bmob-push：Bmob的推送包
+    //Bmob的消息推送SDK
+    implementation 'cn.bmob.android:bmob-push:1.0.2'
+    //图片圆形化
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.github.clans:fab:1.6.4'
+    //图片剪切—开源库
+    implementation('com.github.yalantis:ucrop:2.2.1') {//这个里面的okio会和bmob的里面的冲突，这样写可以解决。
+        exclude module: 'okio'
+    }
+    //图片轮播
+    implementation 'cn.bingoogolapple:bga-banner:2.2.4@aar'
+    //Glide 圆形图片
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    //ShareSDK
+    implementation files('libs/MobCommons-2018.0816.1650.jar')
+    implementation files('libs/ShareSDK-Core-3.2.1.jar')
+    implementation files('libs/ShareSDK-Renren-3.2.1.jar')
+    implementation files('libs/ShareSDK-SinaWeibo-3.2.1.jar')
+    implementation files('libs/ShareSDK-QQ-3.2.1.jar')
+    implementation files('libs/ShareSDK-Wechat-3.2.1.jar')
+    implementation files('libs/ShareSDK-Wechat-Moments-3.2.1.jar')
+    implementation files('libs/MobTools-2018.0817.1730.jar')
+    implementation files('libs/ShareSDK-Wechat-Core-3.2.1.jar')
+    implementation files('libs/ShareSDK-QZone-3.2.1.jar')
+    implementation files('libs/ShareSDK-Wechat-Favorite-3.2.1.jar')
+    implementation files('libs/ShareSDK-TencentWeibo-3.2.1.jar')
+    implementation files('libs/ShareSDK-ShortMessage-3.2.1.jar')
+    implementation files('libs/ShareSDK-Alipay-Moments-3.2.1.jar')
+    implementation files('libs/ShareSDK-Alipay-3.2.1.jar')
+    implementation files('libs/ShareSDK-Alipay-Core-3.2.1.jar')
+    implementation files('libs/ShareSDK-Cmcc-3.2.1.jar')
+    implementation files('libs/ShareSDK-Douban-3.2.1.jar')
+    implementation files('libs/ShareSDK-Evernote-3.2.1.jar')
+    implementation files('libs/ShareSDK-GooglePlus-3.2.1.jar')
+    implementation files('libs/ShareSDK-Kakao-Core-3.2.1.jar')
+    implementation files('libs/ShareSDK-KakaoTalk-3.2.1.jar')
+    implementation files('libs/ShareSDK-Linkedin-3.2.1.jar')
+    implementation files('libs/ShareSDK-Meipai-3.2.1.jar')
+    implementation files('libs/ShareSDK-Mingdao-3.2.1.jar')
+    //动画弹窗
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.2@aar'
+    //日历
+    implementation files('libs/joda-time-2.3.jar')
+    //写眼轮下拉刷新
+    implementation 'com.facebook.fresco:fresco:1.5.0'
+    //表格
+    implementation 'com.github.huangyanbin:SmartTable:2.2.0'
+    //弹窗
+    implementation 'com.github.pinguo-zhouwei:CustomPopwindow:2.1.1'
+    implementation 'me.imid.swipebacklayout.lib:library:1.1.0'
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_myinfo_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/rl_top"
+        android:background="@drawable/myinfo_status_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200">
+        <TextView
+            android:textColor="@color/viewBackground"
+            android:textSize="25sp"
+            android:text="欢迎使用报名助手"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:id="@+id/setting_usage_card"
+        android:layout_margin="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/dp_2"
+        app:cardCornerRadius="@dimen/dp_3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/drawer_item_bg_n">
+
+            <LinearLayout
+                android:id="@+id/my_account_info"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_12"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_person_black_24dp"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_12"
+                    android:text="账户信息"
+                    android:textColor="@color/setting_text" />
+
+            </LinearLayout>
+
+            <include layout="@layout/item_custom_settings_line" />
+
+            <LinearLayout
+                android:id="@+id/update_password"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_12"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_20"
+                    android:src="@drawable/updatepwd"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_15"
+                    android:text="密码修改"
+                    android:textColor="@color/setting_text" />
+
+            </LinearLayout>
+
+            <include layout="@layout/item_custom_settings_line"/>
+
+            <LinearLayout
+                android:id="@+id/my_night_mode"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_12"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_brightness_3_black_24dp"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_12"
+                    android:text="@string/setting_night"
+                    android:textColor="@color/setting_text" />
+            </LinearLayout>
+            <include layout="@layout/item_custom_settings_line"/>
+
+            <LinearLayout
+                android:id="@+id/my_setting"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_12"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_settings_myinfo_24dp"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_12"
+                    android:text="设置"
+                    android:textColor="@color/setting_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <Button
+        android:id="@+id/btn_finish_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#DE3332"
+        android:text="退出登录"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60">
+    </LinearLayout>
+</LinearLayout>

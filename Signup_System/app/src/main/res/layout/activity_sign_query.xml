@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_query_show"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zhangsong.com.signup_system.view.Wave.WaveView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/wave_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <!--主布局内容-->
+    <!--<android.support.design.widget.CoordinatorLayout-->
+        <!--android:id="@+id/coordinator"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--&lt;!&ndash;android:theme="@style/AppTheme.AppBarOverlay"&ndash;&gt;-->
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:background="@drawable/status_gradient"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fitsSystemWindows="true">-->
+            <!--<android.support.design.widget.CollapsingToolbarLayout-->
+                <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+                <!--android:id="@+id/collapsing_toolbar_layout"-->
+                <!--android:fitsSystemWindows="true"-->
+                <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--&lt;!&ndash;引入定制的Toolbar&ndash;&gt;-->
+                <!--<include layout="@layout/custom_toolbar"/>-->
+                <!--<TextView-->
+                    <!--android:paddingTop="@dimen/dp_17"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:id="@+id/tv_toolbar_title"-->
+                    <!--android:textColor="@color/White"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="@dimen/sp_16"-->
+                    <!--android:text="@string/sign_query"/>-->
+            <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+        <!--</android.support.design.widget.AppBarLayout>-->
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+    <include layout="@layout/custom_coordinator"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/coordinator"
+        android:textColor="@color/Yellow"
+        android:textSize="@dimen/text_size_20"
+        android:id="@+id/tv_sign_people_show"
+        android:text="目前已成功报名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_sign_people_show"
+        android:textColor="@color/viewBackground"
+        android:textSize="@dimen/text_size_27"
+        android:id="@+id/tv_sign_people"
+        android:text="加载中..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.zhangsong.com.signup_system.view.PowerfulEditText
+        android:textColor="@color/viewBackground"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/sign_query"
+        android:layout_above="@+id/ptn_query"
+        android:hint="@string/sign_query_eidt_code"
+        android:textColorHint="@color/cal_stroke"
+        app:clearDrawable="@drawable/edit_clear_all"
+        app:borderStyle="roundRect"
+        app:styleColor="#ffeb3b"
+        android:maxLength="10"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="@dimen/dp_300"
+        android:layout_height="wrap_content" />
+    <com.zhangsong.com.signup_system.view.ProgressButton
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_centerInParent="true"
+        android:id="@+id/ptn_query"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_50" />
+</RelativeLayout>

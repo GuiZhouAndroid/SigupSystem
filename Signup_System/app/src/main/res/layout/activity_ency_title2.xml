@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/viewBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <include layout="@layout/custom_ency_appbar"/>
+    <com.zhangsong.com.signup_system.base.NestedScrollView.MyNestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.zhangsong.com.signup_system.base.Widget.MarqueeTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dp_16"
+                android:text="             开展计算机信息高新技术考试意义             "
+                android:textColor="@color/Black"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_alignParentStart="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_16"
+                    android:text="资料来源：CITT工作网"
+                    android:textColor="@color/comment_text"
+                    android:textSize="@dimen/text_size_13" />
+                <TextView
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_16"
+                    android:text="发布时间：2015-06-09"
+                    android:textColor="@color/comment_text"
+                    android:textSize="@dimen/text_size_13" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_05"
+                android:background="@color/Black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_16"
+                android:text="@string/tv_title2_content"
+                android:textColor="@color/comment_text"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+    </com.zhangsong.com.signup_system.base.NestedScrollView.MyNestedScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_share_black_24dp"
+        android:elevation="4dp"
+        app:pressedTranslationZ="16dp"
+        app:rippleColor="@android:color/white"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="bottom|end"/>
+</android.support.design.widget.CoordinatorLayout>

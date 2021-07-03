@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <!--圆形倒计时-->
+        <com.zhangsong.com.signup_system.base.CircleProgress.CircleProgress
+            android:id="@+id/circleprogress"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            app:hintSize="@dimen/text_size_10"
+            app:unitSize="15sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp" />
+</RelativeLayout>

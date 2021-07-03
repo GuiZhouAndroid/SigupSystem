@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--android:fillViewport="true"高度撑不满整个NestedScrollView-->
+<com.zhangsong.com.signup_system.base.NestedScrollView.MyNestedScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nested_view"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:background="@color/viewBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+       <!--内部只能有一个子元素,即不能并列两个子元素-->
+       <include layout="@layout/custom_fragment_classification"/>
+</com.zhangsong.com.signup_system.base.NestedScrollView.MyNestedScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="process_states">
+        <item>报考须知</item>
+        <item>报考验证</item>
+        <item>填写资料</item>
+        <item>报名成功</item>
+    </array>
+</resources>

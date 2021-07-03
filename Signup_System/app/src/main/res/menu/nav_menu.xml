@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_menu_school"
+            android:title="@string/drawer_menu_info_school"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/drawer_menu_see_calendar"
+            android:title="@string/drawer_menu_see_calendar"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"/>
+        <item
+            android:id="@+id/drawer_menu_setting"
+            android:title="@string/drawer_menu_setting_title"
+            android:icon="@drawable/ic_settings_black_24dp"/>
+        <item
+            android:id="@+id/drawer_menu_about_author"
+            android:title="@string/drawer_menu_about_author"
+            android:icon="@drawable/ic_about_we_black_24dp"/>
+        <item
+            android:id="@+id/drawer_menu_logout"
+            android:title="@string/drawer_menu_logout_title"
+            android:icon="@mipmap/ic_action_exit"/>
+    </group>
+</menu>
